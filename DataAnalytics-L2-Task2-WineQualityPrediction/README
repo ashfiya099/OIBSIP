@@ -1,1 +1,94 @@
+# DataAnalytics-L2-Task2-WineQualityPrediction
 
+## Wine Quality Prediction
+
+### Objective
+
+The objective of this project is to classify wines into Low, Medium, and High quality categories using their physicochemical properties and machine learning classification algorithms.
+
+## Dataset
+
+The Wine Quality dataset contains physicochemical measurements of red wine samples and their quality scores.
+
+The original quality scores range from 3 to 8.
+
+### Feature Engineering
+
+The original quality scores were converted into three classes:
+
+- Low: Quality 3–4
+- Medium: Quality 5–6
+- High: Quality 7–8
+
+## Data Preprocessing
+
+The following steps were performed:
+
+- Dataset inspection
+- Missing-value analysis
+- Duplicate-value analysis
+- Feature distribution analysis
+- Correlation analysis
+- Conversion of quality scores into three classes
+- Stratified train-test split
+- Feature scaling for SGD and SVC
+
+## Models Used
+
+Three classification algorithms were trained:
+
+1. Random Forest
+2. SGD Classifier
+3. Support Vector Classifier (SVC)
+
+## Model Performance
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|---|---:|---:|---:|---:|
+| Random Forest | 0.8688 | 0.8275 | 0.8688 | 0.8458 |
+| SGD Classifier | 0.7781 | 0.7929 | 0.7781 | 0.7848 |
+| SVC | 0.7094 | 0.8150 | 0.7094 | 0.7448 |
+
+## Best Model
+
+Random Forest achieved the best overall performance with:
+
+- Accuracy: **86.88%**
+- Precision: **82.75%**
+- Recall: **86.88%**
+- F1-Score: **84.58%**
+
+Therefore, Random Forest was selected as the best-performing model.
+
+## Visualizations
+
+The project includes:
+
+- Wine quality distribution
+- Chemical feature distributions
+- Correlation heatmap
+- Quality class distribution
+- Confusion matrices
+- Random Forest feature importance
+- Model performance comparison
+
+## Conclusion
+
+Machine learning can effectively classify wine quality using physicochemical properties.
+
+Among the three evaluated models, Random Forest performed best, achieving approximately 86.88% accuracy and an F1-score of 84.58%.
+
+The class imbalance was addressed by using stratified sampling and balanced Random Forest training. Feature-importance analysis also provides insight into which chemical properties contribute most to wine-quality classification.
+
+The model could potentially support automated wine quality assessment and quality-control processes in the wine industry.
+
+## Tools and Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Kaggle
+- Jupyter Notebook
