@@ -12,14 +12,14 @@ The internship provided me with hands-on experience working with real-world data
 
 **Organization:** Oasis Infobytes  
 **Role:** Data Analytics Intern  
-**Domain:** Data Analytics / Data Science  
+**Domain:** Data Analytics 
 **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, NLTK, Jupyter Notebook, Kaggle
 
 ### 🎯 Internship Objective
 
 The main objective of this internship was to gain practical experience in:
 
-- Data cleaning and preprocessing
+- Data cleaning 
 - Exploratory Data Analysis (EDA)
 - Statistical analysis
 - Data visualization
@@ -34,7 +34,7 @@ The main objective of this internship was to gain practical experience in:
 
 # 📂 Projects
 
-## 1. 🧹 Data Cleaning & Preprocessing
+## 1. 🧹 Data Cleaning 
 
 The first project focused on preparing raw data for analysis.
 
@@ -138,7 +138,7 @@ After preprocessing and filtering irrelevant records:
 
 ---
 
-## 5. 🛡️ Credit Card Fraud Detection
+## 5. 🛡️ Fraud Detection
 
 This project focused on detecting fraudulent transactions using machine learning.
 
